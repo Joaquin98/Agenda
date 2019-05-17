@@ -1,0 +1,7 @@
+El archivo "EstructuraElegida.pdf" tiene una breve explicación de la estructura.
+El archivo "contactos.in" tiene una lista de contactos para realizar pruebas.
+
+Tanto archivos de carga como de grabacion tienen el siguiente formato:
+En la primera linea del archivo hay un entero, la cantidad de contactos que tiene el archivo, luego por cada contacto se enlistan sus atributos separados por enters.
+
+Comando: gcc -std=c99 main.c agenda.c ttree.c dlist.c -o main; ./main
